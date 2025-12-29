@@ -36,12 +36,17 @@ I developed a structured prompting methodology to reduce credit waste during exp
 
 ---
 
+![Veo 3 Studio Failure](veo3-studio-failure.gif)
+*Figure 1: Adversarial test of "studio lighting" prompts. Note the visible softboxes and smoke setup. The model successfully renders the environment initially but suffers from geometry collapse (shattering effect) when the camera movement introduces new temporal data.*
+![veo3-studio-failure](https://github.com/user-attachments/assets/b1c9e3d1-5d0b-4610-8081-60d16f4eeb5a)
+
+---
+
 ## 🚀 Roadmap
 - [ ] **Automated Eval Script:** Building a Python script to automatically detect frame-drops and consistency errors in generated video output.
 - [ ] **Texture Consistency Score:** Developing a metric to quantify how well textures hold up during rapid camera movements.
 - [ ] **Cross-Model Comparison:** Future benchmarks will compare Veo 3 performance against other SOTA video generation models.
 
----
 
 ## 📬 Contact
 **Abdishakur Mahdi Abdirahman**
